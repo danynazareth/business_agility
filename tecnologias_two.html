@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Business Agility & Transformação Digital</title>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="sky" src="images/sallon.jpeg" alt="">
+            <img id="proximo" src="images/next-button.png" alt="">
+            
+            <img id="babylonjs" src="images/_babylonjs.webp" alt="">
+            <img id="arcore" src="images/_arcore.jpg" alt="">
+            <img id="aframe" src="images/__aframe.png" alt="">
+            <img id="arjs" src="images/_arjs.png" alt="">
+            <img id="awejs" src="images/+awejs.png" alt="">
+            <img id="wikitude" src="images/_wikitude.png" alt="">
+          
+        </a-assets>
+        <a-sky src="#sky" rotation="0 270 0"></a-sky> 
+
+
+
+
+        <a-text value="Vejam as \n Tecnologias para contrução\n do seu mundo virtual" 
+        negate="false"
+        align="center" 
+         material="color: #000" 
+         position="0 1.59015 -1" 
+        color="#fff" scale="1 1 1" 
+        text="anchor: center; width: 5.2; alphaTest: 2.15; wrapCount: 39.6" 
+        rotation="0 0 0" 
+        font="fonts/Roboto-Medium-msdf.json"  
+        font-image="fonts/Roboto-Medium.png"
+        geometry="primitive: plane; height: 2; width: 3.4"
+    
+        ></a-text>
+        <a-image src="#babylonjs" position="-7.94547 5.27253 77.4854" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 180 0" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#arcore" position="-33.46637 16.33481 69.73535" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 180 0" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#aframe" position="12.61233 18.81614 76.31706" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 180 0" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#arjs" position="63.4244 4.18252 13.59042" scale="8 4 1" geometry="height: 4; width: 4" rotation="0 -90 0" animation__scale="property: scale; to: 9 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 8 4 1 dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#awejs" position="-50.16987 18.00292 46.38621" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 180 0" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#wikitude" position="41.04604 -7.67816 49.11996" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 180 0" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+
+        <a-image link="href: good_bye.html" src="#proximo" position="-82.38007 -16.68 -3.5" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image link="href: _six.html" src="#proximo" position="-82.38007 -16.68 21.013" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        
+          <a-camera>
+            <a-cursor></a-cursor>
+          </a-camera>
+    </a-scene>
+    
+</body>
+</html>

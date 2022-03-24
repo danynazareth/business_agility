@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Business Agility & Transformação Digital</title>
+
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="/aframe-gui/aframe-gui/dist/aframe-gui.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="sky" src="images/vila.jpeg" alt="">
+            <img id="proximo" src="images/next-button.png" alt="">
+            
+        </a-assets>
+        <a-sky src="#sky"></a-sky> 
+
+        <a-text value="Como o metaverso já está a serviço da população?"
+
+         align="center" 
+         color="#000" 
+         scale="2 2 1"
+         position="0 4 -4"
+         negate="false" 
+         font="fonts/Roboto-Medium-msdf.json"  
+         font-image="fonts/Roboto-Medium.png" ></a-text>  
+
+         <a-image src="images/logodanynazarecircle.png" position="1.13592 1.6 -2" material="" geometry=""></a-image>
+
+         <a-image src="images/logo-tdc.png" position="0.08285 1.6 -2" material="" geometry=""></a-image>
+
+         <a-text value="By: Dany Nazaré"
+          align="center" 
+          color="#000" 
+          scale="2 2 1"
+          position="-1.7 3 -4"
+          negate="false" 
+          font="fonts/Roboto-Medium-msdf.json"  
+          font-image="fonts/Roboto-Medium.png" ></a-text>
+
+          <a-image link="href: good_bye.html" src="#proximo" position="82.38007 -16.68 -3.5" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+          <a-image link="href: sobre-mim.html" src="#proximo" position="82.38007 -16.68 21.013" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+          
+      
+          <a-camera>
+              <a-cursor></a-cursor>
+          </a-camera>
+		
+
+
+          
+    </a-scene>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Business Agility & Transformação Digital</title>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="sky" src="images/museam.jpeg" alt="">
+            <img id="proximo" src="images/next-button.png" alt="">
+            
+            <img id="blockchain" src="images/_blockchain.png" alt="">
+            <img id="hologram" src="images/_hologram.png" alt="">
+            <img id="ra" src="images/_ra.png" alt="">
+            <img id="vr" src="images/_vr.png" alt="">
+            <img id="coin" src="images/_coin.png" alt="">
+            <img id="nft" src="images/nft.png" alt="">
+          
+        </a-assets>
+        <a-sky src="#sky" rotation="0 270 0"></a-sky> 
+
+
+
+
+        <a-text value="O que é Metaverso?\n\n  um conceito que não\n possui uma \n definição exata \n\n" 
+        negate="false"
+        align="center" 
+         material="color: #000" 
+         position="0 1.59015 -1" 
+        color="#fff" scale="0.4 0.4 0.5" 
+        text="anchor: center; width: 5.2; alphaTest: 2.15; wrapCount: 39.6" 
+        rotation="0 0 0" 
+        font="fonts/Roboto-Medium-msdf.json"  
+        font-image="fonts/Roboto-Medium.png"
+        geometry="primitive: plane; height: 4; width: 3.4"
+    
+        ></a-text>
+        <a-image src="#blockchain" position="-7.94547 5.27253 77.4854" scale="4 4 1" geometry="height: 4; width: 4" rotation="" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#hologram" position="-33.46637 16.33481 69.73535" scale="4 4 1" geometry="height: 4; width: 4" rotation="" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#ra" position="12.61233 18.81614 76.31706" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 0 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#vr" position="63.4244 4.18252 13.59042" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -90 0" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#coin" position="-50.16987 18.00292 46.38621" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -205.07 -4.9" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image src="#nft" position="41.04604 -7.67816 49.11996" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -108.71 0" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+
+        <a-image link="href: conceito3.html" src="#proximo" position="-82.38007 -16.68 -3.5" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image link="href: conceito.html" src="#proximo" position="-82.38007 -16.68 21.013" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        
+          <a-camera>
+            <a-cursor></a-cursor>
+          </a-camera>
+    </a-scene>
+    
+</body>
+</html>

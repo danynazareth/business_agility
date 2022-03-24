@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Business Agility & Transformação Digital</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="sky" src="images/car.jpeg" alt="">
+
+            <img id="timeline" src="images/timeline.PNG" alt="">
+            <img id="proximo" src="images/next-button.png" alt="">
+
+          
+        </a-assets>
+        <a-sky src="#sky" rotation="0 270 0"></a-sky> 
+
+
+        <a-text value="Brigadão TDC! \n \n Nos Vemos em Breve ;-D" align="right" color="#000" scale="1.63 1.8 1" position="0.46447 2.59717 -4" negate="false" font="fonts/Roboto-Medium-msdf.json" font-image="fonts/Roboto-Medium.png" text="alphaTest: NaN"></a-text>
+         
+         <a-image src="images/logo-tdc.png" position="1.11007 2.24386 -2" material="" geometry="" scale="1.4 1.4 1"></a-image>
+        
+
+        <a-image link="href: index.html" src="#proximo" position="-82.38007 -16.68 -3.5" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image link="href: tecnologias_two.html" src="#proximo" position="-82.38007 -16.68 21.013" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        
+          <a-camera>
+            <a-cursor></a-cursor>
+          </a-camera>
+    </a-scene>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Business Agility & Transformação Digital</title>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+       
+            <a-asset-item id="face" src="models/logo_face/scene.gltf"></a-asset-item>
+            <img id="sky" src="images/minecraft_six.png" alt="">
+   
+            <img id="proximo" src="images/next-button.png" alt="">
+        </a-assets>
+  
+
+        <a-sky  src="#sky"></a-sky>
+        <a-entity gltf-model="#face" position="0 0 -80" scale="0.09 0.09 0.09"></a-entity>
+     
+        <a-image link="href: conceito.html" src="#proximo" position="-82.38007 -16.68 -3.5" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image link="href: sobre-mim.html" src="#proximo" position="-82.38007 -16.68 21.013" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        
+          <a-camera>
+            <a-cursor></a-cursor>
+          </a-camera>
+    </a-scene>
+    
+</body>
+</html>

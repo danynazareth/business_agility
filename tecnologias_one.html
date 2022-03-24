@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Business Agility & Transformação Digital</title>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+
+            <img id="sky" src="images/minecraftvr.jpg" alt="">
+            <img id="roblox" src="images/roblox.webp" alt="">
+            <img id="fortnite" src="images/fortnite.jpg" alt="">
+     
+            <img id="proximo" src="images/next-button.png" alt="">
+        </a-assets>
+        <a-sky src="#sky" rotation="0 270 0"></a-sky> 
+
+       
+        <a-image src="#fortnite" position="5.20209 13.76945 -71.14754" scale="20 10 1" geometry="height: 4; width: 4" rotation="" material=""></a-image>
+        <a-image src="#roblox" position="29.11705 14.89506 36.77678" scale="9.45 7.46 1" geometry="height: 4; width: 4" rotation="1.16 200 0" material=""></a-image>
+    
+     
+        <a-image link="href: _one.html" src="#proximo" position="-82.38007 -16.68 -3.5" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 -90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        <a-image link="href: sobre-mim.html" src="#proximo" position="-82.38007 -16.68 21.013" scale="4 4 1" geometry="height: 4; width: 4" rotation="0 90 180" animation__scale="property: scale; to: 5 5 1; dur: 200; startEvents: mouseenter" animation__scale_reverse="property: scale; to: 4 4 1; dur: 200; startEvents: mouseleave" material=""></a-image>
+        
+          <a-camera>
+            <a-cursor></a-cursor>
+          </a-camera>
+    </a-scene>
+    
+</body>
+</html>
